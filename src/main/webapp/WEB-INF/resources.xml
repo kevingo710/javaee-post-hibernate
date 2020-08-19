@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<tomee>
+    <Resource id="jdbc/Datasource" type="javax.sql.DataSource">
+        JdbcDriver = org.postgresql.Driver
+        JdbcUrl = jdbc:postgresql://167.71.157.145:5432/javaee
+        UserName = postgres
+        Password = kevingo*GO
+        jtaManaged = true
+    </Resource>
+</tomee>
